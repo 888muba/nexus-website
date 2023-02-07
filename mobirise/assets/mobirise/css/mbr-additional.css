@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400&display=swap');
+
+
+
 body {
-  font-family: Jost;
+  font-family: 'Urbanist', sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 300px;
 }
 .display-1 {
   font-family: 'Jost', sans-serif;
@@ -20,7 +26,7 @@ body {
 .display-4 {
   font-family: 'Jost', sans-serif;
   font-size: 1.1rem;
-  line-height: 1.5;
+  margin-bottom: 0;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.375rem;
@@ -113,8 +119,8 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #03a9f4 !important;
-  border-color: #ffffff !important;
+  background-color: #0615c9 !important;
+  border-color: #0615c9 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -122,9 +128,9 @@ body {
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary.active {
-  color: #03A9F4 !important;
+  color: #0615c9 !important;
   background-color: #ffffff !important;
-  border-color: #03A9F4 !important;
+  border-color: #ffffff !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-primary.disabled,
@@ -179,8 +185,8 @@ body {
 }
 .btn-success,
 .btn-success:active {
-  background-color: #03A9F4 !important;
-  border-color: #03A9F4 !important;
+  background-color: #0615c9 !important;
+  border-color: #0615c9 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -188,9 +194,9 @@ body {
 .btn-success:focus,
 .btn-success.focus,
 .btn-success.active {
-  color: #03A9F4!important;
+  color: #0615c9!important;
   background-color: #ffffff !important;
-  border-color: #03A9F4 !important;
+  border-color: #ffffff !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-success.disabled,
@@ -201,8 +207,8 @@ body {
 }
 .btn-warning,
 .btn-warning:active {
-  background-color:#03a9f4 !important;
-  border-color: #03a9f4 !important;
+  background-color:#0615c9 !important;
+  border-color: #0615c9 !important;
   color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
@@ -210,7 +216,7 @@ body {
 .btn-warning:focus,
 .btn-warning.focus,
 .btn-warning.active {
-  color: #0687c1 !important;
+  color: #0615c9 !important;
   background-color: #ffffff !important;
   border-color: #ffffff !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
@@ -354,15 +360,15 @@ body {
 .btn-success-outline:active {
   background-color: #ffffff !important;
   border-color: #ffffff;
-  color: #03a9f4;
+  color: #0615c9;
 }
 .btn-success-outline:hover,
 .btn-success-outline:focus,
 .btn-success-outline.focus,
 .btn-success-outline.active {
   color:#ffffff !important;
-  background-color:#03a9f4!important;
-  border-color: #03a9f4!important;
+  background-color:#0615c9!important;
+  border-color: #0615c9!important;
   box-shadow: none!important;
 }
 .btn-success-outline.disabled,
@@ -477,7 +483,7 @@ body {
   color: #fafafa !important;
 }
 .text-black {
-  color: #232323 !important;
+  color: #0615c9 !important;
 }
 a.text-primary:hover,
 a.text-primary:focus,
@@ -1043,9 +1049,11 @@ a {
     left: -1rem;
   }
 }
-.cid-tuuxbREcXH {
-  background-image: url("../../../assets/images/finance2.jpg");
-}
+/*.cid-tuuxbREcXH {
+  background-image: url("../../../assets/images/revenue-animate.svg");
+  background-size: contain;
+  background-position: right;
+}*/ 
 .cid-tuuxbREcXH .mbr-fallback-image.disabled {
   display: none;
 }
@@ -1059,7 +1067,7 @@ a {
   top: 0;
 }
 .cid-tuuxbREcXH .mbr-section-title {
-  color: #ffffff;
+  color: #252a99;
 }
 .cid-tuuxbREcXH .mbr-text,
 .cid-tuuxbREcXH .mbr-section-btn {
@@ -1094,7 +1102,7 @@ a {
 @media (max-width: 991px) {
   .cid-tuuxSu7wVi .card-wrapper {
     padding: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 20px;
   }
 }
 .cid-tuuxSu7wVi .row {
@@ -1620,7 +1628,9 @@ a {
   }
 }
 .cid-tuuzicVLo5 {
-  background-image: url("../../../assets/images/pictures.jpg");
+  background-image: url("../../../assets/images/about-bg1.png");
+  background-size: contain;
+  background-position: 90%;
 }
 
 .cid-tuuzicVLo5 .mbr-fallback-image.disabled {
@@ -2802,7 +2812,7 @@ a {
   }
 }
 .cid-tuuA13t9PD {
-  background-image: url("../../../assets/images/con2.jpg");
+  background-image: url("../../../assets/images/pho1.jpg");
 }
 .cid-tuuA13t9PD .mbr-fallback-image.disabled {
   display: none;
@@ -2829,7 +2839,7 @@ a {
 .cid-tuuzVaT9RX {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #ffffff;
+  background-color: #d9d4d4;
 }
 .cid-tuuzVaT9RX .mbr-fallback-image.disabled {
   display: none;
