@@ -1630,7 +1630,7 @@ a {
 .cid-tuuzicVLo5 {
   background-image: url("../../../assets/images/about-bg1.png");
   background-size: contain;
-  background-position: 90%;
+  background-position:center;
 }
 
 .cid-tuuzicVLo5 .mbr-fallback-image.disabled {
@@ -1687,7 +1687,7 @@ a {
   color: #ffffff;
 }
 .cid-cce {
-  background-image: url("../../../assets/images/bcoin.jpg");
+  background-image: url("../../../assets/images/product.png");
 }
 
 .cid-cce .mbr-fallback-image.disabled {
@@ -1805,11 +1805,11 @@ a {
     display: none;
   }
 }
-.cid-tuuznFn4YC .embla__button:disabled {
+.cid-tuuznFn4YC .embla__button.disabled {
   cursor: default;
   display: none;
 }
-.cid-tuuznFn4YC .embla__button:hover {
+.cid-tuuznFn4YC .embla__button.hover {
   background: #000;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -2812,7 +2812,7 @@ a {
   }
 }
 .cid-tuuA13t9PD {
-  background-image: url("../../../assets/images/pho1.jpg");
+  background-image: url("../../../assets/images/home.png");
 }
 .cid-tuuA13t9PD .mbr-fallback-image.disabled {
   display: none;
