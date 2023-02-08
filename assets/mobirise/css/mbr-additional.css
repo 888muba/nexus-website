@@ -1750,8 +1750,6 @@ a {
   background-color: #ffffff;
 }
 .cid-tuuznFn4YC {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
   background-color:#d9d4d4;
 }
 .cid-tuuznFn4YC .mbr-fallback-image.disabled {
@@ -2460,6 +2458,9 @@ a {
 }
 .cid-tuux1KyDfK nav.navbar {
   position: fixed;
+  margin: auto;
+  width: 100vw;
+  padding: 0;
 }
 .cid-tuux1KyDfK .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -2517,9 +2518,7 @@ a {
 .cid-tuux1KyDfK .container {
   display: flex;
   margin: auto;
-  height: 50px;
   width: 100%;
-  background-color: transparent;
 }
 @media (min-width: 992px) {
   .cid-tuux1KyDfK .container {
@@ -2662,6 +2661,9 @@ a {
     flex-basis: auto;
     width: auto;
     height: auto;
+    position: fixed;
+    top: 20px;
+    right: 20px;
   }
   .cid-tuux1KyDfK .navbar .icons-menu {
     padding-left: 0;
@@ -2706,7 +2708,7 @@ a {
 }
 .cid-tuux1KyDfK .navbar-expand-lg .navbar-nav .nav-link {
   padding: 0;
-  margin: 30px auto;
+  margin: 15px auto;
 }
 .cid-tuux1KyDfK .nav-dropdown .link.dropdown-toggle {
   margin-right: 1.667em;
