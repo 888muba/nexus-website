@@ -10,8 +10,17 @@ body {
   color:#000000;;
   position: relative;
 }
-
-
+p , img{
+  animation: move 1s linear 1s;
+}
+@keyframes move {
+  from {
+    opacity:  0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 button {
   background-color: transparent;
   border-color: transparent;
@@ -76,7 +85,7 @@ a {
   line-height: 1;
   word-break: break-word;
   word-wrap: break-word;
-  font-weight: 400;
+  font-weight:;
 }
 
 b,
@@ -208,8 +217,7 @@ figure[mbr-media-size] {
   transition: width 0.1s;
 }
 
-img,
-iframe {
+img {
   display: block;
   width:600px;
   padding:1px
@@ -979,13 +987,19 @@ blockquote {
 }
 
 .key{
-     display: flex;
-    justify-content: space-between;
+        display: flex;
+    justify-content: center;
     width: 95vw;
     background: transparent;
-    max-width: 400px;
+    max-width: 300px;
     margin: 20px auto;
+    background: aliceblue;
+    text-align: center;
     align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 5px 18px #00000045;
+    flex-direction: column;
+    height: 250px;
 }
 
 }
@@ -996,9 +1010,17 @@ blockquote {
   justify-content: center;
   flex-direction: column;
 }
+.key h5{
+  font-weight: 600px;
+}
+.le{
+    font-size: 14px;
+  letter-spacing:1px; 
 
+}
 p{
   font-size: 14px;
+  letter-spacing: 
 
 }
 .blank{
@@ -1140,3 +1162,18 @@ p{
   height: 90px;
   padding: inherit;
 }
+.logo-1{
+   width: auto;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-1 img{
+  object-fit: contain;
+  width: 100%;
+  height: 90px;
+  padding: inherit;
+  
+}
+
