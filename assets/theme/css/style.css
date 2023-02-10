@@ -387,10 +387,17 @@ nav .mbr-section-btn {
   font-size: 22px;
 }
 
-.key img {float: left;
- width:90px; 
- padding:20px;
+.key img {  
+  float: left;
+  width: 70px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #ffbf00;
+  mix-blend-mode: difference;
+  border-radius: 10px;
+  box-shadow: 8px 4px 7px 0px #0000003d;
 }
+
 
 
 .mbr-arrow-up a {
@@ -987,17 +994,17 @@ blockquote {
 }
 
 .key{
-        display: flex;
+         display: flex;
     justify-content: center;
     width: 95vw;
     background: transparent;
     max-width: 300px;
     margin: 20px auto;
-    background: aliceblue;
+    background: transparent;
     text-align: center;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 1px 5px 18px #00000045;
+    /* box-shadow: 1px 5px 18px #00000045; */
     flex-direction: column;
     height: 250px;
 }
@@ -1078,7 +1085,21 @@ p{
   }
 }
 
-
+.reg-button{
+width:auto;
+padding: 5px 20px ;
+  background-color: #0615c9!important;
+  border-radius: 5px;
+ box-shadow: 1px 3px 7px 0px #00000052;
+ color: white !important;
+ transition: all 0.5s;
+ font-weight: bolder;
+ letter-spacing: 1px;
+}
+.reg-button:hover{
+   background-color: white !important;
+ color: #0615c9;
+}
 .card-container{
   margin:30px auto 30px auto;
   width: 95vw;
