@@ -31,6 +31,7 @@ section,
 .container-fluid {
   position: relative;
   word-wrap: break-word;
+  margin: auto;
 }
 
 a.mbr-iconfont:hover {
@@ -91,7 +92,7 @@ a {
 b,
 strong {
   font-weight: bold;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 
@@ -372,8 +373,9 @@ nav .mbr-section-btn {
   position: relative;
 }
 .map iframe {
-  width: 100%;
+  width: auto;
   height: 100%;
+  margin: auto;
 }
 
 /*! Scroll to top arrow */
@@ -1006,7 +1008,7 @@ blockquote {
     border-radius: 10px;
     /* box-shadow: 1px 5px 18px #00000045; */
     flex-direction: column;
-    height: 250px;
+    height: auto;
 }
 
 }
@@ -1040,9 +1042,7 @@ p{
   flex-wrap: wrap;
 
 }
-.hero{
-  min-height: 80vh;
-}
+
 .hero h1{
   font-size: 3rem;
   font-weight: 900;
@@ -1076,20 +1076,14 @@ p{
 .blank .text button:hover{
  background-color: white !important;
  color: #0615c9;
-}
-@media(max-width: 800){
-  .blank .text{
-  text-align: center;
-  align-items: center;
-  
-  }
+
 }
 
 .reg-button{
-width:auto;
-padding: 5px 20px ;
+width:100px;
+padding: 5px 13px ;margin: auto 5px;
   background-color: #0615c9!important;
-  border-radius: 5px;
+  border-radius: 10px;
  box-shadow: 1px 3px 7px 0px #00000052;
  color: white !important;
  transition: all 0.5s;
@@ -1099,6 +1093,16 @@ padding: 5px 20px ;
 .reg-button:hover{
    background-color: white !important;
  color: #0615c9;
+}
+
+@media(max-width: 870px){
+  .blank .text{
+  text-align: center;
+  align-items: center;
+  }
+  .reg-button{
+    margin: auto;
+  }
 }
 .card-container{
   margin:30px auto 30px auto;
@@ -1112,7 +1116,7 @@ padding: 5px 20px ;
 }
 .card-main{
   width: 250px;
-  margin:auto;
+  margin:15px auto;
   display: flex;
   flex-direction: column;
   align-items: center;justify-content: center;
@@ -1196,5 +1200,59 @@ padding: 5px 20px ;
   height: 90px;
   padding: inherit;
   
+} 
+.product{
+  margin: auto;
+  max-width: 1000px;
+}  
+.table {
+  max-width: 1000px;
+  margin: auto;
 }
 
+.faq-2 h2{
+ font-size: 18px;
+ font-weight: 700;
+}
+.fx-main{
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+.fx{
+  background: transparent;
+  margin: auto;
+  width: auto;
+  display: flex;
+   flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+ 
+
+}
+.fx div{
+     box-shadow: 1px 3px 14px #0000001f;
+    max-width: 270px;
+    border-radius: 10px;
+    margin: auto 20px;
+    background: #fb6464;
+    padding: 10px;
+    color: white;
+}
+.fx .pb-2 .img{
+  width:  auto;
+  height:60px;
+  margin: auto;
+}
+.fx-button{
+    background: transparent;
+  margin: auto;
+  width: auto;
+  display: flex;
+   flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto;
+}

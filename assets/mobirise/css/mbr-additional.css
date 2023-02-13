@@ -1074,7 +1074,6 @@ a {
   color: #fafafa;
 }
 .cid-tuuxSu7wVi {
-  padding-bottom: 6rem;
   background-color: #ffffff;
 }
 .cid-tuuxSu7wVi .mbr-fallback-image.disabled {
@@ -1392,7 +1391,7 @@ a {
 .cid-tuux1KyDfK .navbar .navbar-collapse {
   justify-content: flex-end;
   z-index: 1;
-  max-width: 400px;
+  max-width: 500px;
 }
 .cid-tuux1KyDfK .navbar.collapsed {
   justify-content: center;
@@ -2581,6 +2580,7 @@ a {
 .cid-tuux1KyDfK .navbar .navbar-collapse {
   justify-content: flex-end;
   z-index: 1;
+  margin: auto;
 }
 .cid-tuux1KyDfK .navbar.collapsed {
   justify-content: center;
@@ -2664,6 +2664,7 @@ a {
     position: fixed;
     top: 20px;
     right: 20px;
+    z-index: 50;
   }
   .cid-tuux1KyDfK .navbar .icons-menu {
     padding-left: 0;
@@ -2869,21 +2870,20 @@ a {
   align-items: center;
 }
 .cid-tuuzVaT9RX .card-wrapper {
-  margin-bottom: 2rem;
-  display: flex;
-  border-radius: 4px;
-  background: #fafafa;
+ margin-bottom: 2rem;
+    display: flex;
+    height: 200px;
+    border-radius: 4px;
+    background: #fafafa;
+    flex-direction: column;
+    justify-content: center;
 }
 @media (max-width: 991px) {
   .cid-tuuzVaT9RX .card-wrapper {
     padding: 1rem 2rem;
   }
 }
-@media (min-width: 992px) {
-  .cid-tuuzVaT9RX .card-wrapper {
-    padding: 41px;
-  }
-}
+
 .cid-tuuzVaT9RX .mbr-iconfont {
   font-size: 2rem;
   padding-right: 1.5rem;
@@ -2925,6 +2925,7 @@ a {
 @media (max-width: 767px) {
   .cid-tuuxWfXCzd .row {
     text-align: center;
+    justify-content: center;
   }
   .cid-tuuxWfXCzd .social-row {
     justify-content: center;
